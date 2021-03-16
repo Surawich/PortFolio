@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Mukta:wght@200&family=Noto+Sans+KR&family=Oswald:wght@200&display=swap');
+
+body{
+    background-color: lightgrey;
+}
+#myForm{
+    font-size: 20px;
+}
+#myLogin{
+    font-size: 24px;
+}
+#Topic{
+    font-family: 'Lobster', 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+#Regisform{
+    background-color:navajowhite;
+}
+#Loginform{
+    background-color:cornsilk;
+}

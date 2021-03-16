@@ -1,0 +1,188 @@
+html{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%; */
+    scroll-behavior: smooth;
+}
+.section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.section_title{
+    font-size: 60px;
+    color:#383328;
+}
+.section_title span{
+    color: #0A0B5B;
+}
+
+/* ์==== Navbar ====*/
+.nav-link{
+    font-size: 18px;
+}
+
+/*==== Header Home ====*/
+header{
+    background-image: url("../img/BGHead.png");
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 800px;
+}
+.home_greeting{
+    font-size: 56px;
+}
+.home_title, .assign_home{
+    font-size: 100px;
+}
+.home_sub{
+    font-size: 32px;
+}
+.hrwhite{
+    border: 3px solid white;
+}
+#To{
+    color: wheat;
+}
+
+/*==== About ====*/
+.about_img{
+    box-shadow: 0px 5px 10px grey;
+}
+.about_icon{
+    width: 32px;
+    height: 32px;
+    color: #0A0B5B;
+}
+/* ==== Personal ===*/
+.personal_title{
+    text-align: left;
+    font-size: 40px;
+}
+.leadper{
+    text-align: left;
+    font-size: 30px;
+}
+/* ==== Interest ===*/
+.Interest_title{
+    text-align: right;
+    font-size: 40px;
+}
+.leadint{
+    text-align: right;
+    font-size: 30px;
+}
+
+/* ==== Skill ==== */
+.skill_section{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.skill_box{
+    padding: 36px 0;
+}
+.skill_icon{
+    font-size: 46px;
+    color: gray;
+}
+.skill_icon_web{
+    font-size: 28px;
+}
+.skillpic{
+    width: 50%;
+}
+
+/* ==== Interesting= ==== */
+
+/* ==== Assignment/Project ==== */
+.assign_box{
+    background-color: gray;
+    color: black;
+}
+.chevron_icon svg{
+    width: 48px;
+    height: 48px;
+}
+.bookmark_icon{
+    font-size: 32px;
+}
+
+.assign_section hr{
+    background-color: black;
+}
+
+.project_box{
+    background-color: grey;
+    color: black;
+}
+
+/* ==== Footer ==== */
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer_icon svg{
+    width: 32px;
+    height: 32px;
+    margin: 0 12px;
+    color: #41464b;
+}
+.footer_icon svg:hover{
+    color: #0080ff;
+}
+.card{
+    background-color: grey;
+}
+
+/* ==== Media Query ==== */
+@media screen and (max-width: 584px){
+    .home_line{
+        border-left: 4px solid #fdb827;
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+    .home_greeting{
+        font-size: 35px;
+    }
+    .home_title{
+        font-size: 72px;
+    }
+    .assign_home{
+        font-size: 56px;
+    }
+    .home_sub{
+        font-size: 24px;
+    }
+    .social-icon svg{
+        width: 32px;
+        height: 32px;
+    }
+
+    .about_img{
+        width: 300px;
+    }
+    .personal_title{
+        font-size: 20px;
+    }
+    .leadper{
+        font-size: 16px;
+    }
+    /* ==== Interest ===*/
+    .Interest_title{
+        font-size: 20px;
+    }
+    .leadint{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .home_title{
+        font-size: 52px;
+    }
+    .assign_home{
+        font-size: 40px;
+    }
+}

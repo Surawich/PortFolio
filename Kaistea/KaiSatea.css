@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Mukta:wght@200&family=Noto+Sans+KR&family=Oswald:wght@200&display=swap');
+.grid_container{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+
+    /* can add grid row as same as add colume
+        grid-template-rows: ...% ...% ...%;
+    */
+    
+    grid-gap:10px;
+}
+.grid-container>div{
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+
+body{
+    background-color:darksalmon;
+}
+#header{
+    grid-column: 1/ span 3;
+    height: fit-content;
+}
+#menu{
+    grid-column: 1/ span 1;
+}
+#main{
+    grid-column: 2/ span 1;
+}
+#right{
+    grid-column: 3/ span 1;
+}
+#footer{
+    grid-column: 1/ span 3;
+    height: fit-content;
+}
+#HeadlinePic{
+    width: 80%;
+    height: 20%;
+    border: 5px dotted burlywood;
+}
+.ADpicclass{
+    margin-top: 10%;
+    width: 70%;
+    height: auto;
+}
+.Adpicclass>div{
+    padding: 50px;
+    border: 2px solid rgb(202, 89, 24);
+}
+h1{
+    background-color:blanchedalmond;
+    color: darkorange;
+    font-family: 'Lobster', 'Times New Roman', Times, serif;
+    font-size: 50pt;
+}
+h2{
+    padding: 30px;
+    font-family: 'Mukta';
+    font-size: 25pt;
+    color: indianred;
+    margin: 1px;
+    background-color: khaki;
+
+}
+.Step{
+    font-family: 'Mukta';
+}
+#StepPic{
+    width: 90%;
+    margin: auto;
+}
+.Satay{
+    width: 75%;
+    margin: auto;
+}
+.ShouldI{
+    text-align: left;
+    font-family: 'Mukta';
+    font-size: 16pt;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#IngredientPic{
+    height: 500px;
+    float: left;
+}
+.flex_container{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    text-align: left;
+    font-size: 20pt;
+    /*height: 500px;*/ 
+}
+.flex_container_1 > div{
+    text-align: left;
+    padding: 50px;
+    border: 2px solid rgb(202, 89, 24);
+    width: 36%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flex_container_1{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    /*height: 500px;*/ 
+}
+hr
+{
+    background-color: lightsalmon;
+    border: lightsalmon;
+    height: 10px;
+
+}
+@media only screen and (max-width: 1024px)
+{
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap:10px;
+    }
+    #header{
+        grid-column: 1/ span 2;
+    }
+    #menu{
+        grid-column: 1/ span 2;
+        text-align: left;
+    }
+    #main{
+        grid-column: 1/ span 1;
+    }
+    #right{
+        grid-column: 2/ span 1;
+    }
+    #footer{
+        grid-column: 1/ span 2;
+    }
+    h1{
+        font-size: 30pt;
+    }
+    h2{
+        font-size: 24pt;
+    
+    }
+    .ADpicclass{
+        width: 80%;
+        height: auto;
+    }
+    .flex_container_1 > div{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap:10px;
+    }
+    #header{
+        grid-column: 1/ span 1;
+    }
+    #menu{
+        grid-column: 1/ span 1;
+    }
+    #main{
+        grid-column: 1/ span 1;
+    }
+    #right{
+        grid-column: 1/ span 1;
+    }
+    #footer{
+        grid-column: 1/ span 1;
+    }
+    h1{
+        font-size: 24pt;
+    }
+    h2{
+        font-size: 20pt;
+    
+    }
+    .flex_container_1 > div{
+        width: 70%;
+    }
+    .Adpicclass{
+        width: auto;
+    }
+}

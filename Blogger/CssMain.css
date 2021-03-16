@@ -1,0 +1,43 @@
+#topic1{
+    border: 2px solid rgb(202, 89, 24);
+    background-color: blanchedalmond;
+    height: 100px;
+    font-size: 40px;
+}
+#comment1{
+    border: 2px solid rgb(202, 89, 24);
+    background-color: blanchedalmond;
+    height: 100px;
+    font-size: 20px;
+}
+#comment2{
+    border: 2px solid rgb(202, 89, 24);
+    background-color: blanchedalmond;
+    height: 100px;
+    font-size: 20px;
+}
+body{
+    background-color: darkkhaki;
+
+}
+#text1{
+    width: 600px;
+    height: 100px;
+}
+#Button{
+    font-size: 30px;
+    width: fit-content;
+    height: auto;
+}
+#Topichead{
+    border: 2px solid rgb(202, 89, 24);
+    background-color: white;
+    color: brown;
+    font-size: 50px;
+}
+#Comment{
+    border: 2px solid rgb(202, 89, 24);
+    background-color: white;
+    color: brown;
+    font-size: 50px;
+}

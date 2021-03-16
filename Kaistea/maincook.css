@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Mukta:wght@200&family=Noto+Sans+KR&family=Oswald:wght@200&display=swap');
+
+body{
+    background-color: cornsilk;
+    text-align: left;
+    font-size: 20pt;
+}
+.Center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#HeadlinePic{
+    width: 80%;
+    padding: 5px;
+    border: 5px dotted burlywood;
+}
+h1{
+    background-color:blanchedalmond;
+    color: darkorange;
+    font-family: 'Lobster', 'Times New Roman', Times, serif;
+    font-size: 50pt;
+}
+h2{
+    padding: 20px;
+    font-family: 'Mukta';
+    font-size: 24pt;
+    color: indianred;
+    margin: 1px;
+    background-color: khaki;
+
+}
+.Step{
+    font-family: 'Mukta';
+}
+#IngredientPic{
+    height: 500px;
+    float: left;
+}
+#StepPic{
+    width: 400px;
+}
+#Satay4{
+    width: 300px;
+}
+.flex_container{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    /*height: 500px;*/ 
+}
+
+.flex_container_1 > div{
+    padding: 50px;
+    border: 2px solid rgb(202, 89, 24);
+    width: 500px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flex_container_1{
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    /*height: 500px;*/ 
+}
+.ShouldI{
+    text-align: left;
+    font-family: 'Mukta';
+    font-size: 20pt;
+}
+hr
+{
+    background-color: lightsalmon;
+    border: lightsalmon;
+    height: 10px;
+
+}
