@@ -16,7 +16,7 @@ function Changepic(id){
 
     if(id == "Escapepic")
     {
-        pic.src = "img/BG2.png"
+        pic.src = "img/BG2.PNG"
         pic.id = "Escapepic1";
     }else if(id == "Escapepic1")
     {
@@ -26,7 +26,7 @@ function Changepic(id){
 
     if(id == "Escape1pic")
     {
-        pic.src = "img/1stad_2.png"
+        pic.src = "img/1stad_2.PNG"
         pic.id = "Escape1pic1";
     }else if(id == "Escape1pic1")
     {
@@ -36,11 +36,11 @@ function Changepic(id){
 
     if(id == "Walkizpic")
     {
-        pic.src = "img/AR3.png"
+        pic.src = "img/AR3.PNG"
         pic.id = "Walkizpic1";
     }else if(id == "Walkizpic1")
     {
-        pic.src = "img/AR2.png"
+        pic.src = "img/AR2.PNG"
         pic.id = "Walkizpic";
     }
 
